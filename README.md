@@ -16,3 +16,11 @@ The project uses a synthetic dataset that simulates the performance of three onl
     *   Standardizing string casing (title case for "Language") and removing leading/trailing whitespace.
     *   Correcting any misspelled column names (e.g., "impressionz").
     *   Removing rows with `NaN` values after the numeric conversions.
+
+
+
+3.  **Feature Engineering:**
+    *   Calculating "cost\_per\_booking" by dividing "Net+Agency Spend" by "Bookings (No VTC)". Rows with infinite or missing values in this new column are dropped.
+    *   Aggregating the data to a weekly level by platform (summing numeric columns).
+    *   Implementing an **Adstock Transformation** (`adstock_transform` function): This simulates the lagged or carry-over effect of advertising, where the impact of spend in one period decays over subsequent periods.  A geometric decay rate (alpha) is used.
+    *   Implementing a **Saturation (Hill) Function** (`hill_saturation` function): This models diminishing returns, acknowledging that the incremental impact of ad spend decreases as spend increases. This is crucial for realistic modeling. The Hill function has parameters 'hill_a' (maximum effect), 'hill_b' (shape/slope), and 'hill_c' (half-saturation point).
