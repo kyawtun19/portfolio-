@@ -9,3 +9,10 @@ The project uses a synthetic dataset that simulates the performance of three onl
 1.  **Data Loading and Exploration:** Loading the CSV data into a Pandas DataFrame and performing initial data exploration (shape, info, describe, checking for missing values).
 
 ![image](https://github.com/user-attachments/assets/aff94d03-50f0-46ab-9c5f-4f315fc3e4ac)
+
+2.  **Data Cleaning:**
+    *   Replacing missing values represented by "NA" or empty strings.
+    *   Converting relevant columns ("impression", "clicks", "Net+Agency Spend", "Bookings (No VTC)") to numeric types, handling non-numeric characters.
+    *   Standardizing string casing (title case for "Language") and removing leading/trailing whitespace.
+    *   Correcting any misspelled column names (e.g., "impressionz").
+    *   Removing rows with `NaN` values after the numeric conversions.
