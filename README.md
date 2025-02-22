@@ -39,3 +39,6 @@ The project uses a synthetic dataset that simulates the performance of three onl
 ![image](https://github.com/user-attachments/assets/94038d3b-685e-46bd-a896-e458d9823464)
 
 ![image](https://github.com/user-attachments/assets/72b4e661-30bc-44bc-9e46-0d59a18dca3c)
+
+![image](https://github.com/user-attachments/assets/5bcd3b95-d391-48ee-bde7-91669e796b77)
+
