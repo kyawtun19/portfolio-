@@ -42,15 +42,11 @@ The project uses a synthetic dataset that simulates the performance of three onl
 
 ![image](https://github.com/user-attachments/assets/5bcd3b95-d391-48ee-bde7-91669e796b77)
 
- 5.**Bayesian MMM (PyMC):**
-    *   Implements a Bayesian hierarchical linear regression using PyMC.
-    
-    *   **Adstock Transformation:** Uses a geometric adstock function to model lagged advertising effects.
-    
-    *   **Saturation (Hill Function):** Employs a Hill function to capture diminishing returns.
-    
-    *   **Priors:** Normal priors on coefficients; Half-Normal prior on the noise.
-    
+ 5. **Bayesian MMM (PyMC):**
+    *   A Bayesian hierarchical linear regression model is built using PyMC.
+    *   **Adstock Transformation:** A geometric adstock function models the lagged effect of advertising, incorporating a decay rate.
+    *   **Saturation (Hill Function):** A Hill function models diminishing returns, using parameters for maximum effect, shape, and half-saturation point.
+    *   **Priors:** Normal priors are assumed for coefficients, and a Half-Normal prior for the noise term.
 
 
     
