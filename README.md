@@ -56,7 +56,7 @@ The project uses a synthetic dataset that simulates the performance of three onl
   
 ![image](https://github.com/user-attachments/assets/14404ae2-cc60-41b8-abee-8c83fbb74ce8)
 
-7. ## Comparing Model Results: Bayesian MMM vs. Linear Regression
+7. Comparing Model Results: Bayesian MMM vs. Linear Regression
 
    ![image](https://github.com/user-attachments/assets/941b1e97-bccb-40d7-948a-cbda6a34ef85)
 
@@ -65,7 +65,7 @@ The project uses a synthetic dataset that simulates the performance of three onl
 - **Lowest Mean Cost**: Google shows the smallest average cost (~71.88) compared to Meta (~72.02) and Snap (~72.06).
 - **Credible Interval Overlap**: All three intervals are wide and overlap, but if forced to pick one winner statistically, Google edges out slightly on the mean.
 
-## Marketing Rationale
+Marketing Rationale
 
 - **High‐Intent Traffic**: Google users often search with immediate needs, boosting conversions.
 - **Scalability**: Google supports larger budgets without steep cost inflation.
