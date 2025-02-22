@@ -47,6 +47,7 @@ The project uses a synthetic dataset that simulates the performance of three onl
     *   **Adstock Transformation:** A geometric adstock function models the lagged effect of advertising, incorporating a decay rate.
     *   **Saturation (Hill Function):** A Hill function models diminishing returns, using parameters for maximum effect, shape, and half-saturation point.
     *   **Priors:** Normal priors are assumed for coefficients, and a Half-Normal prior for the noise term.
+![image](https://github.com/user-attachments/assets/5830cb8f-12ef-4e19-9423-ccb76197ef5b)
 
 
     
