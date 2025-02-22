@@ -28,3 +28,8 @@ The project uses a synthetic dataset that simulates the performance of three onl
       ![image](https://github.com/user-attachments/assets/07a47eb9-7950-4f7c-8cba-42ffb5f4bce8)
 
       
+
+4.  **Exploratory Data Analysis (EDA):**
+    *  Initial data inspection (`head()`, `info()`, `describe()`, etc.)
+    *  Line plots of spend vs. total bookings for each platform (Google, Meta, Snap) to visualize relationships.
+    *  Regression plots using `seaborn.regplot()`
