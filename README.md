@@ -60,6 +60,21 @@ The project uses a synthetic dataset that simulates the performance of three onl
 
    ![image](https://github.com/user-attachments/assets/941b1e97-bccb-40d7-948a-cbda6a34ef85)
 
+   ## Statistical Explanation
+
+- **Lowest Mean Cost**: Google shows the smallest average cost (~71.88) compared to Meta (~72.02) and Snap (~72.06).
+- **Credible Interval Overlap**: All three intervals are wide and overlap, but if forced to pick one winner statistically, Google edges out slightly on the mean.
+
+## Marketing Rationale
+
+- **High‐Intent Traffic**: Google users often search with immediate needs, boosting conversions.
+- **Scalability**: Google supports larger budgets without steep cost inflation.
+- **Advanced Optimization**: Automated bidding fine‐tunes spend for maximum returns.
+
+**Conclusion**: Despite broad intervals, Google’s slightly lower mean plus these marketing advantages suggest it could be the most cost‐effective option for a big booking platform.
+
+
+
 
 
 
