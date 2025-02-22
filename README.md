@@ -33,3 +33,5 @@ The project uses a synthetic dataset that simulates the performance of three onl
     *  Initial data inspection (`head()`, `info()`, `describe()`, etc.)
     *  Line plots of spend vs. total bookings for each platform (Google, Meta, Snap) to visualize relationships.
     *  Regression plots using `seaborn.regplot()`
+  ![image](https://github.com/user-attachments/assets/9f90cc9b-b3c9-4957-9ec3-7128ff007885)
+
