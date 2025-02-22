@@ -73,6 +73,21 @@ Marketing Rationale
 
 **Conclusion**: Despite broad intervals, Google’s slightly lower mean plus these marketing advantages suggest it could be the most cost‐effective option for a big booking platform.
 
+![image](https://github.com/user-attachments/assets/33bf4a3d-1a13-4bc2-ad8f-526dbd3ce427)
+
+**Google_Spend (0.0415)**  
+For every \$1 spent, the model suggests ~0.04 additional bookings. Google stands out as the only platform with a *positive* coefficient, implying it’s the likeliest to drive incremental bookings.
+
+**Meta_Spend (–0.0033)**  
+For each \$1 spent, bookings drop slightly (~0.003). This minor negative coefficient suggests Meta may be less efficient than Google.
+
+**Snap_Spend (–0.0110)**  
+For each \$1 spent, bookings decrease by ~0.011, indicating Snap could be even less efficient.
+
+**Bottom Line**:  
+Based on sign and magnitude alone, **Google** appears the best bet for boosting bookings among these three channels.
+
+
 
 
 
