@@ -52,6 +52,7 @@ The project uses a synthetic dataset that simulates the performance of three onl
 
 **Linear Regression (Statsmodels):**
     *   A standard Ordinary Least Squares (OLS) regression model is fit using Statsmodels.
+    
     *   This model uses raw spend data directly (no adstock or saturation).
 
     
