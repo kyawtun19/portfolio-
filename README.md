@@ -92,7 +92,7 @@ For each \$1 spent, bookings decrease by ~0.011, indicating Snap could be even l
 Based on sign and magnitude alone, **Google** appears the best bet for boosting bookings among these three channels.
 
 
-**Conclusion Statement**  
+# Conclusion Statement
 1. We initially explored a **simple OLS model** to gain a baseline view of how spend correlates with bookings. However, it doesn’t easily capture **adstock effects**—the time‐delayed impact of ads—nor saturation patterns.
 
 2. A **Bayesian model**, on the other hand, can explicitly incorporate:  
