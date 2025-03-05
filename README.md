@@ -70,6 +70,25 @@ The project uses a synthetic dataset that simulates the performance of three onl
 ### Linear Regression
 ![image](https://github.com/user-attachments/assets/2140ff55-8ff8-4513-bb51-61fcc0ef82bd)
 
+### Bayesian MMM
+
+**Model Purpose**  
+It estimates how changes in advertising “effective exposure” (after accounting for delayed impact and diminishing returns) translate into bookings for each channel (Google, Meta, Snap).
+
+**Key Metrics**  
+- **β₀ (Intercept ~72)**: The baseline level of bookings when the transformed exposure is zero.  
+- **β_google (~154)**: For every 1 unit increase in Google’s effective exposure score, bookings rise by about 154 units.  
+- **β_meta and β_snap (each ~71)**: A 1 unit increase in their transformed exposure corresponds to around 71 more bookings.
+
+**What “1 Unit Increase” Means**  
+Raw ad spend is converted through ad stock and Hill saturation functions into a unitless “effective exposure” score. A 1 point jump on this scale represents a significant boost in effective exposure, *not* a \$1 increase.
+
+**Interpretation**  
+- Google’s higher coefficient indicates that as its effective exposure improves, it delivers a notably stronger boost in bookings compared to Meta and Snap, which reach a plateau faster.  
+- **σ (~83,920)**: Reflects the overall variability in bookings across all channels.
+
+**Conclusion**  
+This summary demonstrates that for the same increase in effective exposure, **Google** produces a higher increase in bookings, highlighting its superior scalability.
 
 
 
