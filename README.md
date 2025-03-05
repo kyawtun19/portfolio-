@@ -90,23 +90,20 @@ Raw ad spend is converted through ad stock and Hill saturation functions into a 
 **Conclusion**  
 This summary demonstrates that for the same increase in effective exposure, **Google** produces a higher increase in bookings, highlighting its superior scalability.
 
-```markdown
 ### Linear Regression
 
-Model Purpose:
+**Model Purpose**  
 This model estimates how advertising spend on Google, Meta, and Snap influences the total number of guest bookings.
 
-Key Findings:
+**Key Findings**  
+- **Overall Fit**: The model explains about 25% of the variation in bookings (R² = 0.25).  
+- **Channel Effects**:
+  - **Google Spend**: For every extra dollar spent on Google, the number of bookings increases by about 0.52 units. In practical terms, an extra \$100 in spend on Google is linked to roughly 52 more bookings. This effect is statistically significant (p=0.046).  
+  - **Meta Spend**: Each extra dollar spent on Meta corresponds to an increase of about 0.07 bookings (so an extra \$100 would yield roughly 7 more bookings), which is highly significant (p=0.002).  
+  - **Snap Spend**: The impact of spend on Snap is not statistically significant (p=0.507), meaning its effect on bookings is unclear.
 
-Overall Fit: The model explains about 25% of the variation in bookings (R² = 0.25).
-
-Channel Effects:
-Google Spend: For every extra dollar spent on Google, the number of bookings increases by about 0.52 units. In practical terms, an extra $100 in spend on Google is linked to roughly 52 more bookings. This effect is statistically significant (p=0.046).
-Meta Spend: Each extra dollar spent on Meta corresponds to an increase of about 0.07 bookings (so an extra $100 would yield roughly 7 more bookings), which is highly significant (p=0.002).
-Snap Spend: The impact of spend on Snap is not statistically significant (p=0.507), meaning its effect on bookings is unclear.
-
-Business Implication:
+**Business Implication**  
 These results suggest that increasing spend on Google and Meta is strongly linked to higher guest bookings—with Google showing a particularly strong response. This supports a business case for focusing on Google, as every extra dollar spent there produces a much greater lift in bookings compared to the other channels.
-```
+
 
     
