@@ -62,6 +62,15 @@ The project uses a synthetic dataset that simulates the performance of three onl
 ![image](https://github.com/user-attachments/assets/2daaea50-0c6d-4424-8d64-2c35ea979b41)
 
 
+## 7. Comparing Model Results
+
+### Bayesian MMM
+![image](https://github.com/user-attachments/assets/6aadd89b-91a8-4b22-8495-74e53f50307a)
+
+### Linear Regression
+![image](https://github.com/user-attachments/assets/2140ff55-8ff8-4513-bb51-61fcc0ef82bd)
+
+
 
 
     
