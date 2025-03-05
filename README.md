@@ -38,72 +38,14 @@ The project uses a synthetic dataset that simulates the performance of three onl
     *  Line plots of spend vs. total bookings for each platform (Google, Meta, Snap) to visualize relationships.
     *  Regression plots using `seaborn.regplot()`
       
-  ![image](https://github.com/user-attachments/assets/9f90cc9b-b3c9-4957-9ec3-7128ff007885)
+  ![image](https://github.com/user-attachments/assets/96797a12-c716-4136-b66a-73335042cc30)
 
-![image](https://github.com/user-attachments/assets/94038d3b-685e-46bd-a896-e458d9823464)
+  ![image](https://github.com/user-attachments/assets/e5387f0a-5135-4a8c-99f0-a0144aebc295)
 
-![image](https://github.com/user-attachments/assets/72b4e661-30bc-44bc-9e46-0d59a18dca3c)
-
-![image](https://github.com/user-attachments/assets/5bcd3b95-d391-48ee-bde7-91669e796b77)
-
- 5. **Bayesian MMM (PyMC):**
-    *   A Bayesian hierarchical linear regression model is built using PyMC.
-    *   **Adstock Transformation:** A geometric adstock function models the lagged effect of advertising, incorporating a decay rate.
-    *   **Saturation (Hill Function):** A Hill function models diminishing returns, using parameters for maximum effect, shape, and half-saturation point.
-    *   **Priors:** Normal priors are assumed for coefficients, and a Half-Normal prior for the noise term.
-![image](https://github.com/user-attachments/assets/5830cb8f-12ef-4e19-9423-ccb76197ef5b)
+  ![image](https://github.com/user-attachments/assets/4f60fc4b-de2b-41e2-b7fb-44444ace9293)
 
 
-6.  **Linear Regression (Statsmodels):**
-    *   A standard Ordinary Least Squares (OLS) regression model is fit using Statsmodels.
-    *   This model uses raw spend data directly (no adstock or saturation).
-  
-![image](https://github.com/user-attachments/assets/14404ae2-cc60-41b8-abee-8c83fbb74ce8)
 
-7. Comparing Model Results: Bayesian MMM vs. Linear Regression
-
-   ![image](https://github.com/user-attachments/assets/941b1e97-bccb-40d7-948a-cbda6a34ef85)
-
-   ## Statistical Explanation
-
-- **Lowest Mean Cost**: Google shows the smallest average cost (~71.88) compared to Meta (~72.02) and Snap (~72.06).
-- **Credible Interval Overlap**: All three intervals are wide and overlap, but if forced to pick one winner statistically, Google edges out slightly on the mean.
-
-Marketing Rationale
-
-- **High‐Intent Traffic**: Google users often search with immediate needs, boosting conversions.
-- **Scalability**: Google supports larger budgets without steep cost inflation.
-- **Advanced Optimization**: Automated bidding fine‐tunes spend for maximum returns.
-
-**Conclusion**: Despite broad intervals, Google’s slightly lower mean plus these marketing advantages suggest it could be the most cost‐effective option for a big booking platform.
-
-![image](https://github.com/user-attachments/assets/33bf4a3d-1a13-4bc2-ad8f-526dbd3ce427)
-
-**Google_Spend (0.0415)**  
-For every \$1 spent, the model suggests ~0.04 additional bookings. Google stands out as the only platform with a *positive* coefficient, implying it’s the likeliest to drive incremental bookings.
-
-**Meta_Spend (–0.0033)**  
-For each \$1 spent, bookings drop slightly (~0.003). This minor negative coefficient suggests Meta may be less efficient than Google.
-
-**Snap_Spend (–0.0110)**  
-For each \$1 spent, bookings decrease by ~0.011, indicating Snap could be even less efficient.
-
-**Bottom Line**:  
-Based on sign and magnitude alone, **Google** appears the best bet for boosting bookings among these three channels.
-
-
-# Conclusion Statement
-1. We initially explored a **simple OLS model** to gain a baseline view of how spend correlates with bookings. However, it doesn’t easily capture **adstock effects**—the time‐delayed impact of ads—nor saturation patterns.
-
-2. A **Bayesian model**, on the other hand, can explicitly incorporate:  
-   - **Prior beliefs** about spend response and carryover  
-   - **Adstock effects**, where today’s spend can influence future bookings  
-   - **Saturation**, or diminishing returns when increased spend yields smaller incremental gains  
-   - **Posterior distributions**, providing a richer understanding of parameter uncertainty  
-
-3. Comparing both, the **Bayesian approach** aligns better with the **hidden patterns** in marketing data, especially where lagged effects and non‐linear responses are common.
-
-4. **Hence, I prefer the Bayesian model** for its robust handling of these complexities and clearer interpretation via credible intervals.
 
 
 
