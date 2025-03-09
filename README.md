@@ -50,7 +50,6 @@ The project uses a synthetic dataset that simulates the performance of three onl
     *   A Bayesian hierarchical linear regression model is built using PyMC.
     *   **Adstock Transformation:** A geometric adstock function models the lagged effect of advertising, incorporating a decay rate.
     *   **Saturation (Hill Function):** A Hill function models diminishing returns, using parameters for maximum effect, shape, and half-saturation point.
-    *   **Priors:** Normal priors are assumed for coefficients, and a Half-Normal prior for the noise term.
 
 ![image](https://github.com/user-attachments/assets/071a1789-ebfb-4237-8fec-f18e471de60c)
 
