@@ -105,5 +105,14 @@ This model estimates how advertising spend on Google, Meta, and Snap influences 
 **Business Implication**  
 These results suggest that increasing spend on Google and Meta is strongly linked to higher guest bookings—with Google showing a particularly strong response. This supports a business case for focusing on Google, as every extra dollar spent there produces a much greater lift in bookings compared to the other channels.
 
+# Why I Choose the Bayesian Model Over the OLS Model
+
+I choose the Bayesian model because it offers deeper insight into uncertainty plus precise estimates of effect sizes in our context. While the OLS model produces simple point estimates, the Bayesian method:
+
+- **Delivers complete posterior distributions** for each parameter, letting us gauge uncertainty via credible intervals.
+- **Integrates prior knowledge**, which proves especially useful when differences between channels (e.g., Google, Meta, Snap) show minimal separation while data is noisy.
+- **Supplies robust convergence diagnostics plus metrics** (for instance, effective sample size, r_hat) that build confidence in the model’s estimates.
+
+In short, the Bayesian model’s statistical power, flexibility, plus richer insights make it the preferred option for our marketing mix evaluation, empowering more informed, data-driven decisions regarding channel effectiveness.
 
     
